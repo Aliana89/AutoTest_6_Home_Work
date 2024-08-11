@@ -1,5 +1,4 @@
-package autoTest.accuweather.weather.dayWeatherAlarms;
-
+package autoTest.accuweather.weather.fiveDay;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -9,8 +8,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 @JsonPropertyOrder({
     "AlarmType",
     "Value",
-    "Day",
-    "Night"
+    "Day"
 })
 
 public class Alarm {
@@ -21,8 +19,6 @@ public class Alarm {
     private Value value;
     @JsonProperty("Day")
     private Day day;
-    @JsonProperty("Night")
-    private Night night;
 
     @JsonProperty("AlarmType")
     public String getAlarmType() {
@@ -52,16 +48,6 @@ public class Alarm {
     @JsonProperty("Day")
     public void setDay(Day day) {
         this.day = day;
-    }
-
-    @JsonProperty("Night")
-    public Night getNight() {
-        return night;
-    }
-
-    @JsonProperty("Night")
-    public void setNight(Night night) {
-        this.night = night;
     }
 
 }

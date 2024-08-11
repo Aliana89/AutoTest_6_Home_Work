@@ -1,4 +1,6 @@
-package autoTest.accuweather.locations.locationKey;
+
+package autoTest.accuweather.locations.textSearch;
+
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -24,7 +26,7 @@ public class TimeZone {
     @JsonProperty("IsDaylightSaving")
     private Boolean isDaylightSaving;
     @JsonProperty("NextOffsetChange")
-    private String nextOffsetChange;
+    private Object nextOffsetChange;
 
     @JsonProperty("Code")
     public String getCode() {
@@ -67,12 +69,12 @@ public class TimeZone {
     }
 
     @JsonProperty("NextOffsetChange")
-    public String getNextOffsetChange() {
+    public Object getNextOffsetChange() {
         return nextOffsetChange;
     }
 
     @JsonProperty("NextOffsetChange")
-    public void setNextOffsetChange(String nextOffsetChange) {
+    public void setNextOffsetChange(Object nextOffsetChange) {
         this.nextOffsetChange = nextOffsetChange;
     }
 

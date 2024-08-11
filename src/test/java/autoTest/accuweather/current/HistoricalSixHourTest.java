@@ -8,10 +8,11 @@ import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+
 import java.util.List;
+
 import static io.restassured.RestAssured.given;
 
 public class HistoricalSixHourTest extends AbstractAccuweatherTest {
@@ -21,6 +22,7 @@ public class HistoricalSixHourTest extends AbstractAccuweatherTest {
     @Description("GET Historical Current Conditions (past 6 hours)")
     @Severity(SeverityLevel.NORMAL)
     @Story(value = "Request testing By ID 5")
+
     void getHistoricalSixHour() {
 
         List<Historical> response = given()

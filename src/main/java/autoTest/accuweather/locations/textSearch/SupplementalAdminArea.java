@@ -1,4 +1,6 @@
-package autoTest.accuweather.locations.locationKey;
+
+package autoTest.accuweather.locations.textSearch;
+
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
