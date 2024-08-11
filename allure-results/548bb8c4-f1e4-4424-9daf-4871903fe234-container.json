@@ -1,0 +1,1 @@
+{"uuid":"548bb8c4-f1e4-4424-9daf-4871903fe234","name":"FifteenDaysOfWeatherAlarmsTest","children":["2fbb1ea2-28ca-4388-8e3e-4aaf8e085f56"],"befores":[{"name":"initConfig","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1723373004960,"stop":1723373004962}],"afters":[],"start":1723373004934,"stop":1723373006744}

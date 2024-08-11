@@ -25,7 +25,7 @@ public class FifteenDaysOfWeatherAlarmsTest extends AbstractAccuweatherTest {
                 .get(getBaseUrl()+"/alarms/v1/15day//290421" +
                         "apikey=" +getApiKey())
                 .then()
-                .statusCode(401)
+                .statusCode(200)
                 .time(lessThan(2000L))
                 .statusLine("HTTP/1.1 401 Unauthorized");
 

@@ -1,0 +1,1 @@
+{"uuid":"8bf090a5-596a-4e5f-a04f-531c64f90888","name":"CurrentConditionsTest","children":["84ed2628-d248-4955-afa0-8cad31ba6f46"],"befores":[{"name":"initConfig","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1723373006747,"stop":1723373006747}],"afters":[],"start":1723373006746,"stop":1723373007167}

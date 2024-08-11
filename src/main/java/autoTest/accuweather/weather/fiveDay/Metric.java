@@ -1,4 +1,4 @@
-package autoTest.accuweather.weather.dayWeatherAlarms;
+package autoTest.accuweather.weather.fiveDay;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;

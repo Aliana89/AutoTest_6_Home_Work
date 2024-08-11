@@ -1,4 +1,6 @@
-package autoTest.accuweather.locations.locationKey;
+
+package autoTest.accuweather.locations.textSearch;
+
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -10,8 +12,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
     "Unit",
     "UnitType"
 })
-
-public class Imperial {
+class Imperial {
 
     @JsonProperty("Value")
     private Double value;
